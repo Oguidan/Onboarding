@@ -1,0 +1,12 @@
+{
+  "appId": "",
+  "appDisplayName": "CodeApp_182100_Onboarding",
+  "description": null,
+  "environmentId": "68b60aa8-8dc4-e791-bf48-6048b0d51748",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}

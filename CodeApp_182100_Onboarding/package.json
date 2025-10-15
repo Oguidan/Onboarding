@@ -4,12 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "start pac code run && vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "package": "./scripts/package-dist.sh"
   },
   "dependencies": {
+    "@fluentui/react-components": "^9.72.2",
+    "@fluentui/react-icons": "^2.0.312",
+    "@microsoft/power-apps": "^0.3.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
