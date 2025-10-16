@@ -1,5 +1,5 @@
 {
-  "appId": "",
+  "appId": "0ad08e2a-f1f9-4280-bb11-51d082f8e84f",
   "appDisplayName": "CodeApp_182100_Onboarding",
   "description": null,
   "environmentId": "68b60aa8-8dc4-e791-bf48-6048b0d51748",
@@ -8,5 +8,20 @@
   "logoPath": "Default",
   "localAppUrl": "http://localhost:3000/",
   "connectionReferences": {},
-  "databaseReferences": {}
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://fr037-agl-bizprj-dev-fr.crm4.dynamics.com/",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "_182100_Tasks": {
+          "entitySetName": "agl_t_182100_tasks",
+          "logicalName": "agl_t_182100_task",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  }
 }
